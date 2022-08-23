@@ -1,4 +1,20 @@
-# 기획
+## 제작 기간 & 참여 인원
+* 22.7.14 ~ 22.8.16  
+* 팀 프로젝트
+* 맡은 역할 : back-end developer
+
+## Stack
+* Language : Python, Javascript
+* Framework : Django, DRF, Flask
+* Database : MySQL
+* Infra : AWS EC2, AWS S3, Docker
+
+## Layout
+![](https://velog.velcdn.com/images/soyoyun/post/5132721f-4b6d-47ce-a4cd-9bd12880bf8d/image.png)
+
+## ERD
+![image](https://user-images.githubusercontent.com/90381057/186103025-070baeb8-083d-4394-9153-207b4751c940.png)
+
 
 ### **프로젝트 진행 순서**
 
@@ -181,7 +197,7 @@
 
 ### **페이지 레이아웃**
 
-![](https://velog.velcdn.com/images/soyoyun/post/5132721f-4b6d-47ce-a4cd-9bd12880bf8d/image.png)
+
 
 ### **페이지 세부 레이아웃**
 
