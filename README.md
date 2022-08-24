@@ -12,7 +12,7 @@
 ## Layout
 ![](https://velog.velcdn.com/images/soyoyun/post/5132721f-4b6d-47ce-a4cd-9bd12880bf8d/image.png)
 
-## ERD
+## [ERD](https://www.erdcloud.com/d/EL9ztjydoLhqhysPe)
 ![image](https://user-images.githubusercontent.com/90381057/186103025-070baeb8-083d-4394-9153-207b4751c940.png)
 
 
