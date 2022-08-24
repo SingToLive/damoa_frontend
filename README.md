@@ -1,11 +1,11 @@
 ## 제작 기간 & 참여 인원
 * 22.7.14 ~ 22.8.16  
-* 팀 프로젝트
-* 맡은 역할 : back-end developer
+* 4인 팀 프로젝트
+* 맡은 역할 : 리드 developer / back-end developer
 
 ## Stack
 * Language : Python, Javascript
-* Framework : Django, DRF, Flask
+* Framework : Django, DRF
 * Database : MySQL
 * Infra : AWS EC2, AWS S3, Docker
 
@@ -15,6 +15,12 @@
 ## [ERD](https://www.erdcloud.com/d/EL9ztjydoLhqhysPe)
 ![image](https://user-images.githubusercontent.com/90381057/186103025-070baeb8-083d-4394-9153-207b4751c940.png)
 
+### **API 설계**
+[article](https://documenter.getpostman.com/view/16204656/VUquLFrn#intro)  
+[community](https://documenter.getpostman.com/view/16204656/VUquLFw9)  
+[noticeboard](https://documenter.getpostman.com/view/16204656/VUquLajN)  
+[user](https://documenter.getpostman.com/view/16204656/VUquLajQ)  
+
 
 ### **프로젝트 진행 순서**
 
@@ -23,118 +29,6 @@
 <div markdown="1">
 
 > 발제 → 프로젝트 Notion page 개설 → 주제 브레인스토밍 → 주제선정 → GitHub repository 개설 → Figma 이용해 레이아웃 제작 → 역할분담 및 마감기한 구체화 → 중간 중간 회의 및 팀 내 피드백 → 최종 피드백 → 완성
-
-</div>
-</details>
-
----
-
-### **브레인스토밍**
-
-<details>
-<summary>🧠 주제 브레인스토밍 보기</summary>
-<div markdown="1">
-
-```
-   가현
-
-   도서 검색
-   - 전국에 있는 도서관에서 검색할 수 있는
-   - 대출 현황
-   - 전체 하루 대출, 반납량
-
-   여행지 추천
-   - 서울 놀러갈 곳/ 제주도 먹거리, 볼거리
-   - 위와 같은 내용을 모아준다
-   - 데이트 어플같은거 보면은 서울시에서 무슨무슨구에는 어떤 데이트 장소가 있어서
-   어떤 취향이시면 추천합니다
-
-   - 의식주 관련 사이트
-   - 미술관 모아주는 사이트
-
-   진영
-   여행추천 사이트
-
-   승태
-   운동 사이트
-   - 자리 났을 때 알려주는(잔여백신 같은 느낌)
-
-   민재
-   게임추천 사이트
-   - 게임 태그(rpg, console)
-   - 순서대로 평점, 다운로드 수
-
-   영화 장면
-   - 사진을 기반으로 출처를 찾아주는
-   - 여기가 어딘지 알려주는
-   - 데이터셋을 만들어야할거 같은 느낌이
-
-   미술과 명화 알려주기
-   - 인물 정보
-   - 전시되어 있는 위치
-   - 같은 작가의 작품
-
-   우진
-   스파르타 인원끼리 끈끈해지자, 스파르타 커뮤니티
-```
-
-</div>
-</details>
-
-<details>
-<summary>🧠 서비스에 들어가야할 필수 카테고리 브레인스토밍 보기</summary>
-<div markdown="1">
-
-```
-가현
-- 메인 화면
-	- 바로가기 유저가 생성 가능?
-		- 공식(스파르타) 사이트 바로가기
-		- 사이트 이벤트 바로가기
-		- 스파르타 전시회 바로가기
-
-- 자유 정보 게시판
-(이 안에 유저가 python, django 등 정보 올릴 게시판 자율적으로 생성 가능, 이용순 혹은 가나다순으로 정렬, 찜기능시 맨위로 게시판 올리기 가능)
-
-- 홍보 게시판
-- 질문 게시판
-- 출첵 게시판
-
-진영
-- 질문방(스택별)
-- 잡담방(카테고리별 유저가 자유롭게)
-- 잡담방-익명 질문방-실명
-
-승태
-- DC처럼 처음에는 모든 갤러리(커뮤니티)가 다 보여지게 단, 갤러리 접근은 인증이 되어야만 가능
-- 사용자의 필요에 따라 로그인 후 첫 시작 화면이 모든 갤러리가 보이는 메인 화면 또는 자신이 설정한 갤러리 메인 화면이 될 수 있음
-- 갤러리의 생성은 자유롭게 가능?
-
-- 메인
-	- 갤러리
-	- 이벤트
-	-
-
-- 갤러리
-	- 자유게시판
-	- 익명게시판
-
-민재
-- 메인 화면
-	ㄴ 자유 게시판
-	ㄴ 질문 게시판
-	ㄴ 건의 게시판
-	ㄴ 프로젝트 소개 게시판
-	ㄴ 강의 추천 게시판
-		 ㄴpython 강의 추천
-			 django 강의 추천
-	     등등
-	ㄴ 취미 게시판
-	ㄴ 여행 게시판
-	ㄴ 팀 모집 게시판
-	ㄴ 애완동물 자랑 게시판**
-
-```
 
 </div>
 </details>
@@ -191,9 +85,6 @@
 
 ---
 
-### **API 설계**
-
-![](https://velog.velcdn.com/images/soyoyun/post/5cc5499c-a6f7-41c0-9e9c-080e83406532/image.png)
 
 ### **페이지 레이아웃**
 
