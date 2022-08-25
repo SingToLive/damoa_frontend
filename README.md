@@ -66,24 +66,63 @@
   </tr>
 </table>
 
-## Stack
+## ✨ Stack
 * Language : Python, Javascript
 * Framework : Django, DRF
 * Database : MySQL
 * Infra : AWS EC2, AWS S3, Docker
 
-## Layout
-![Group 26](https://user-images.githubusercontent.com/90381057/186547234-04a9537b-2f48-4a3d-903b-bed3f7b3ba8d.png)
+## 🕹 주요 기능
+### 로그인 / 회원가입
+* JWT 토큰 방식으로 구현
+* Local Storage에 저장
+* 각 페이지마다 접속시 refresh token을 받게 설정
+* 아이디를 고유값으로 지정하여 중복 방지
 
-## [ERD](https://www.erdcloud.com/d/EL9ztjydoLhqhysPe)
+### 메인 페이지
+* 로그인 유무에 따라 추천 커뮤니티 변경
+    * 추천 커뮤니티는 무조건 공개 커뮤니티에 대해서만 제공
+* 커뮤니티 별 하루 접속자 수 순위표 제공
+* 가입되지 않은 커뮤니티에 가입 요청 / 요청 취소 가능
+* 커뮤니티 카드를 누를시 해당 커뮤니티로 이동
+    * 단 가입되지 않은 커뮤니티는 접속 불가능
+* 커뮤니티 생성
+    * 커뮤니티 생성자는 관리자로 자동 설정
+
+### 마이 페이지
+* 비밀번호 변경 가능
+* 가입된 커뮤니티 관리
+* 작성한 글 관리(이동은 미구현)
+* 작성한 댓글 관리(이동은 미구현)
+* 유저->커뮤니티 가입 요청 결과 조회 / 요청 철회 / 요청 삭제
+* 커뮤니티->유저 가입 요청 승락 / 요청 거절
+
+### 커뮤니티 페이지
+* 게시판 생성
+   * 생성자는 게시판 관리자도 자동 설정
+* 게시글 작성
+   * Quill Library로 게시글 작성 기능 구현
+   * 게시글에서 이미지 업로드 가능
+   * 파일 업로드 가능
+   * 게시글 제목, 내용중 하나라도 누락이 있을시 작성 불가능
+* 게시글 수정
+   * 게시글 제목, 내용중 하나라도 누락이 있을시 작성 불가능
+* 댓글 작성
+   * 생성시 날짜, 아이디 노출
+   * 시간순으로 배치
+   * 내용이 없으면 작성 불가능
+
+## ⚙ [ERD](https://www.erdcloud.com/d/EL9ztjydoLhqhysPe)
 ![image](https://user-images.githubusercontent.com/90381057/186103025-070baeb8-083d-4394-9153-207b4751c940.png)
 
-## **API 설계**
+## 🚀 **API 설계**
 [article](https://documenter.getpostman.com/view/16204656/VUquLFrn#intro)  
 [community](https://documenter.getpostman.com/view/16204656/VUquLFw9)  
 [noticeboard](https://documenter.getpostman.com/view/16204656/VUquLajN)  
 [user](https://documenter.getpostman.com/view/16204656/VUquLajQ)  
 
+## 🗺 Layout
+![Group 26](https://user-images.githubusercontent.com/90381057/186547234-04a9537b-2f48-4a3d-903b-bed3f7b3ba8d.png)
 
 ## **프로젝트 진행 순서**
 발제 → 프로젝트 Notion page 개설 → 주제 브레인스토밍 → 주제선정 → GitHub repository 개설 → Figma 이용해 레이아웃 제작 → 역할분담 및 마감기한 구체화 → 중간 중간 회의 및 팀 내 피드백 → 최종 피드백 → 완성
@@ -131,5 +170,3 @@
 -   **발표자 및 영상촬영**
     -   **발표자 : 승태**
     -   **영상촬영 : 승태**<br>
-
-## 
