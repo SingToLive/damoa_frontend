@@ -15,27 +15,18 @@
 ## [ERD](https://www.erdcloud.com/d/EL9ztjydoLhqhysPe)
 ![image](https://user-images.githubusercontent.com/90381057/186103025-070baeb8-083d-4394-9153-207b4751c940.png)
 
-### **API 설계**
+## **API 설계**
 [article](https://documenter.getpostman.com/view/16204656/VUquLFrn#intro)  
 [community](https://documenter.getpostman.com/view/16204656/VUquLFw9)  
 [noticeboard](https://documenter.getpostman.com/view/16204656/VUquLajN)  
 [user](https://documenter.getpostman.com/view/16204656/VUquLajQ)  
 
 
-### **프로젝트 진행 순서**
+## **프로젝트 진행 순서**
+발제 → 프로젝트 Notion page 개설 → 주제 브레인스토밍 → 주제선정 → GitHub repository 개설 → Figma 이용해 레이아웃 제작 → 역할분담 및 마감기한 구체화 → 중간 중간 회의 및 팀 내 피드백 → 최종 피드백 → 완성
 
-<details>
-<summary>보기</summary>
-<div markdown="1">
 
-> 발제 → 프로젝트 Notion page 개설 → 주제 브레인스토밍 → 주제선정 → GitHub repository 개설 → Figma 이용해 레이아웃 제작 → 역할분담 및 마감기한 구체화 → 중간 중간 회의 및 팀 내 피드백 → 최종 피드백 → 완성
-
-</div>
-</details>
-
----
-
-### ▶️ 최종주제
+## 최종주제
 
 **부트캠프 및 온라인 스터디 커뮤니티**<br>
 **테스터 : 내일배움캠프 인원**<br>
@@ -45,8 +36,6 @@
 
 -   추천, 댓글 기능 외 다양한 기능 (추후 계속 추가해볼 예정)
 -   태그기능 -> #python #django 카테고리별 보기
-
----
 
 -   **팀 내 약속 [소통]**
 	-   자리비울일 있거나 얘기 나눌때 Gather, Slack으로 소통
@@ -71,15 +60,11 @@
     -   .gitignore로 필요없는 파일은 업로드 시키지 않기
     -   결과값 신뢰도를 높이기 위한 커스텀 데이터 생성
 
-    ***
-
 -   **팀명과 팀원: 9000(6조) (윤가현[팀장], 김민재, 전진영, 이승태)**
 -   **역할 분담** - **AI 모델 제작 : 진영**
     -   AI 자연어 : 불용어 + 감정평가, 이미지 처리 <br><br>
 -   **백엔드, 프론트 담당 : 승태, 민재, 가현, 진영**
-    -   백엔드 : 로그인및 회원가입, 메인페이지, 마이페이지, 커뮤니티페이지 - 승태 / 커뮤니티페이지 분업- 민재, 가현<br><br>
+    - 로그인및 회원가입, 메인페이지, 마이페이지, 커뮤니티페이지 - 승태 / 커뮤니티페이지 분업- 민재, 가현<br><br>
 -   **발표자 및 영상촬영**
     -   **발표자 : 승태**
     -   **영상촬영 : 승태**<br>
-
----
