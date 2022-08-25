@@ -1,7 +1,70 @@
-## 제작 기간 & 참여 인원
-* 22.7.14 ~ 22.8.16  
-* 4인 팀 프로젝트
-* 맡은 역할 : 리드 developer / back-end developer / front-end developer
+# Project Damoa
+
+## 목차
+1. 프로젝트 소개  
+2. 팀 구성  
+3. 기술 스텍 및 라이브러리  
+4. 주요 기능  
+5. Troubleshooting  
+6. 유저 피드백 및 개선 사항
+
+## 📄 프로젝트 소개
+프로젝트 다모아는 인가된 인원에 대해 자유롭게 커뮤니티를 형성할 수 있는 사이트입니다. 기업, 커뮤니티, 작게는 개인까지 소통을 이어나갈 수 있으며 운동, IT, 음식 등 다양한 주제로 소통방을 만들 수 있습니다. 글 또한 고민, 질문, 자랑 등 자유로운 얘기를 할 수 있습니다.    
+
+### ⏲ 개발 기간 : 2022.7.14 ~ 2022.8.16
+
+### 홈페이지  (현재는 닫힌 상태입니다.)
+
+### 소개 영상  [youtube](https://youtu.be/6c7Q82DfTAU)
+
+### Github  [Front-end](https://github.com/Reinforcement-succeeded/damoa_frontend)
+
+### Github  [Back-end](https://github.com/Reinforcement-succeeded/damoa_backend)
+
+## 🧑 팀 구성 
+* 4인 팀 프로젝트  <br>
+* 맡은 역할 : lead developer / back-end developer / front-end developer
+
+<table>
+  <tr>
+    <td align="center"><strong>구분</strong></td>
+    <td align="center"><strong>Back-end</strong></td>
+    <td align="center"><strong>Front-end</strong></td>
+    <td align="center"><strong>Designer</strong></td>
+    <td align="center"><strong>AI Engineer</strong></td>	  
+  </tr>
+  <tr>
+    <td align="center"><strong>메인페이지</strong></td>
+    <td align="center">이승태</td>
+    <td align="center">이승태</td>
+    <td align="center">이승태</td>
+    <td rowspan="5" align="center">전진영</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>마이페이지</strong></td>
+    <td align="center">이승태</td>
+    <td align="center">이승태</td>
+    <td align="center">이승태</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>로그인 페이지</strong></td>
+    <td align="center">이승태</td>
+    <td align="center">이승태</td>
+    <td align="center">이승태</br>전진영</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>회원가입 페이지</strong></td>
+    <td align="center">이승태</td>
+    <td align="center">이승태</td>
+    <td align="center">이승태</br>전진영</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>커뮤니티 페이지</strong></td>
+    <td align="center">이승태</br>윤가현</br>김민재</td>
+    <td align="center">이승태</br>윤가현</br>김민재</td>
+    <td align="center">이승태</br>윤가현</br>김민재</td>
+  </tr>
+</table>
 
 ## Stack
 * Language : Python, Javascript
@@ -26,7 +89,7 @@
 발제 → 프로젝트 Notion page 개설 → 주제 브레인스토밍 → 주제선정 → GitHub repository 개설 → Figma 이용해 레이아웃 제작 → 역할분담 및 마감기한 구체화 → 중간 중간 회의 및 팀 내 피드백 → 최종 피드백 → 완성
 
 
-## 최종주제
+## 주제
 
 **부트캠프 및 온라인 스터디 커뮤니티**<br>
 **테스터 : 내일배움캠프 인원**<br>
@@ -68,3 +131,5 @@
 -   **발표자 및 영상촬영**
     -   **발표자 : 승태**
     -   **영상촬영 : 승태**<br>
+
+## 
