@@ -6,9 +6,10 @@
 3. Stack
 4. 주요 기능  
 5. Troubleshooting
-6. ERD
-7. API
-8. Layout
+6. Architecture
+7. ERD
+8. API
+9. Layout
 
 ## 📄 프로젝트 소개
 프로젝트 다모아는 인가된 인원에 대해 자유롭게 커뮤니티를 형성할 수 있는 사이트입니다. 기업, 커뮤니티, 작게는 개인까지 소통을 이어나갈 수 있으며 운동, IT, 음식 등 다양한 주제로 소통방을 만들 수 있습니다. 글 또한 고민, 질문, 자랑 등 자유로운 얘기를 할 수 있습니다.    
@@ -123,7 +124,9 @@
 2. 동시에 여러 개의 serializer 정보 저장 중 오류 발생으로 일정 부분만 저장될 때
     * 해결 : transaction을 사용하여 모든 serializer가 동시에 저장되게끔 설정
 
-3. 
+## 🏚 Architecture
+![image](https://user-images.githubusercontent.com/90381057/186589235-d27760f4-2d18-4642-90be-950eca5e2a92.png)
+
 
 ## ⚙ [ERD](https://www.erdcloud.com/d/EL9ztjydoLhqhysPe)
 ![image](https://user-images.githubusercontent.com/90381057/186103025-070baeb8-083d-4394-9153-207b4751c940.png)
