@@ -4,7 +4,7 @@
 1. 프로젝트 소개  
 2. 팀 구성  
 3. Stack
-4. Library
+4. Stack & Library Version
 5. 주요 기능  
 6. Troubleshooting
 7. Architecture
@@ -76,7 +76,7 @@
 * Database : MySQL
 * Infra : AWS EC2, AWS S3, Docker
 
-## 📖 Library
+## 📖 Stack & Library Version
 <img src="https://img.shields.io/badge/python-3.9.12-brightgreen"> <img src="https://img.shields.io/badge/django-4.0.6-brightgreen"> <img src="https://img.shields.io/badge/django_rest_framework-3.13.1-brightgreen"> <img src="https://img.shields.io/badge/django_rest_framework_simple_jwt-5.2.0-brightgreen"> <img src="https://img.shields.io/badge/django_cors_header-3.13.0-brightgreen"> <img src="https://img.shields.io/badge/mysql_client-2.1.1-brightgreen"> <img src="https://img.shields.io/badge/tensorflow-2.9.1-brightgreen"> <img src="https://img.shields.io/badge/konlpy-0.6.0-brightgreen"> <img src="https://img.shields.io/badge/boto3-1.24.40-brightgreen"> <img src="https://img.shields.io/badge/PyJWT-2.4.0-brightgreen"> <img src="https://img.shields.io/badge/urllib3-1.26.11-brightgreen"> <img src="https://img.shields.io/badge/requests-2.28.1-brightgreen">
 </br>
 ## 🕹 주요 기능
