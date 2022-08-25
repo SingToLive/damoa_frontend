@@ -1,7 +1,7 @@
 ## 제작 기간 & 참여 인원
 * 22.7.14 ~ 22.8.16  
 * 4인 팀 프로젝트
-* 맡은 역할 : 리드 developer / back-end developer
+* 맡은 역할 : 리드 developer / back-end developer / front-end developer
 
 ## Stack
 * Language : Python, Javascript
@@ -10,7 +10,7 @@
 * Infra : AWS EC2, AWS S3, Docker
 
 ## Layout
-![](https://velog.velcdn.com/images/soyoyun/post/5132721f-4b6d-47ce-a4cd-9bd12880bf8d/image.png)
+![Group 26](https://user-images.githubusercontent.com/90381057/186547234-04a9537b-2f48-4a3d-903b-bed3f7b3ba8d.png)
 
 ## [ERD](https://www.erdcloud.com/d/EL9ztjydoLhqhysPe)
 ![image](https://user-images.githubusercontent.com/90381057/186103025-070baeb8-083d-4394-9153-207b4751c940.png)
@@ -74,40 +74,12 @@
     ***
 
 -   **팀명과 팀원: 9000(6조) (윤가현[팀장], 김민재, 전진영, 이승태)**
--   **1차 개발 기간 : 22.07.14.목 ~ 22.07.21.목 오후 5:00 마감**
 -   **역할 분담** - **AI 모델 제작 : 진영**
     -   AI 자연어 : 불용어 + 감정평가, 이미지 처리 <br><br>
 -   **백엔드, 프론트 담당 : 승태, 민재, 가현, 진영**
-    -   백엔드 : 로그인및 회원가입, 메인페이지 - 승태 / 커뮤니티페이지 분업- 민재, 가현<br><br>
+    -   백엔드 : 로그인및 회원가입, 메인페이지, 마이페이지, 커뮤니티페이지 - 승태 / 커뮤니티페이지 분업- 민재, 가현<br><br>
 -   **발표자 및 영상촬영**
     -   **발표자 : 승태**
-    -   **영상촬영 : 진영**<br>
+    -   **영상촬영 : 승태**<br>
 
 ---
-
-
-### **페이지 레이아웃**
-
-
-
-### **페이지 세부 레이아웃**
-
-**로그인 - 로그아웃**
-![](https://velog.velcdn.com/images/soyoyun/post/55635918-2a92-43b4-8d5a-73415a35f1b7/image.png)
-
-**메인페이지**
-![](https://velog.velcdn.com/images/soyoyun/post/717de1b5-73dc-47ce-95ec-04a172cea770/image.png)
-
-**인증 필요할경우**
-![](https://velog.velcdn.com/images/soyoyun/post/fc1fe873-ea44-4c38-9a29-a63f6f288b84/image.png)
-
-**게시판 설계도**
-![](https://velog.velcdn.com/images/soyoyun/post/bbda55c5-2a69-49fd-8b3f-45ea7f0caae2/image.png)
-
-**관리자 페이지에는 왼쪽에 관리항목이 추가되어 보입니다.<br>
-커뮤니티 관리자는 글 승인/거절 페이지에 접근할 수 있습니다.**
-![](https://velog.velcdn.com/images/soyoyun/post/352c554d-98e8-4f9c-88ef-5b9ae75ebc82/image.png)
-
-### **DB설계**
-
-![](https://velog.velcdn.com/images/soyoyun/post/d55cf6c0-2f4e-454b-812a-8ec6384ce48c/image.png)
