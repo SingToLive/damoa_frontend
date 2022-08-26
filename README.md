@@ -111,11 +111,7 @@
 ## 🏚 Architecture
 ![186589235-d27760f4-2d18-4642-90be-950eca5e2a92](https://user-images.githubusercontent.com/90381057/186792240-d9ec22b6-849c-4743-a5fd-8e01c93194a5.png)
 
-## 🚀 **API 설계**
-[article](https://documenter.getpostman.com/view/16204656/VUquLFrn#intro)  
-[community](https://documenter.getpostman.com/view/16204656/VUquLFw9)  
-[noticeboard](https://documenter.getpostman.com/view/16204656/VUquLajN)  
-[user](https://documenter.getpostman.com/view/16204656/VUquLajQ)  
+## 🚀 **[API 설계](https://documenter.getpostman.com/view/16204656/VUqypEbL)**
 
 ## 🗺 Layout
 ![Group 26](https://user-images.githubusercontent.com/90381057/186547234-04a9537b-2f48-4a3d-903b-bed3f7b3ba8d.png)
