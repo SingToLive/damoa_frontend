@@ -18,9 +18,7 @@
 
 ### 소개 영상  [youtube](https://youtu.be/6c7Q82DfTAU)
 
-### Github  [Front-end](https://github.com/Reinforcement-succeeded/damoa_frontend)
-
-### Github  [Back-end](https://github.com/Reinforcement-succeeded/damoa_backend)
+### Github  [Back-end](https://github.com/SingToLive/damoa_backend)
 
 ## 🧑 팀 구성 
 * 4인 팀 프로젝트  <br>
@@ -111,7 +109,7 @@
    * 내용이 없으면 작성 불가능
 
 ## 🏚 Architecture
-![image](https://user-images.githubusercontent.com/90381057/186589235-d27760f4-2d18-4642-90be-950eca5e2a92.png)
+![186589235-d27760f4-2d18-4642-90be-950eca5e2a92](https://user-images.githubusercontent.com/90381057/186792240-d9ec22b6-849c-4743-a5fd-8e01c93194a5.png)
 
 ## 🚀 **API 설계**
 [article](https://documenter.getpostman.com/view/16204656/VUquLFrn#intro)  
